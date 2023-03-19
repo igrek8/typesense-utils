@@ -8,13 +8,13 @@
     "typesense"
   ],
   "author": "Igor Korchagin (https://github.com/igrek8)",
-  "homepage": "https://github.com/igrek8/nodejs-template#readme",
+  "homepage": "https://github.com/igrek8/typesense-utils#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/igrek8/nodejs-template"
+    "url": "https://github.com/igrek8/typesense-utils"
   },
   "bugs": {
-    "url": "https://github.com/igrek8/nodejs-template/issues"
+    "url": "https://github.com/igrek8/typesense-utils/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
