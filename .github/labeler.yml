@@ -1,0 +1,19 @@
+version: '1'
+labels:
+  - label: 'fix 🔧'
+    title: '^fix(\(.+\))?:.*'
+
+  - label: 'bug 🐛'
+    title: '^fix(\(.+\))?:.*'
+
+  - label: 'chore 🧹'
+    title: '^chore(\(.+\))?:.*'
+
+  - label: 'docs 📋'
+    title: '^docs(\(.+\))?:.*'
+
+  - label: 'feature ✨'
+    title: '^feat(\(.+\))?:.*'
+
+  - label: 'refactor 🛠'
+    title: '^refactor(\(.+\))?:.*'

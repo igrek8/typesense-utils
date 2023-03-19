@@ -1,0 +1,23 @@
+name: flow-pr
+
+on: pull_request
+
+jobs:
+  check-title:
+    uses: igrek8/github-workflows/.github/workflows/job-check-title.yml@main
+  add-labels:
+    uses: igrek8/github-workflows/.github/workflows/job-add-labels.yml@main
+  format:
+    uses: igrek8/github-workflows/.github/workflows/job-format.yml@main
+  lint:
+    uses: igrek8/github-workflows/.github/workflows/job-lint.yml@main
+  test:
+    uses: igrek8/github-workflows/.github/workflows/job-test.yml@main
+  build:
+    uses: igrek8/github-workflows/.github/workflows/job-build.yml@main
+  analyze:
+    uses: igrek8/github-workflows/.github/workflows/job-analyze.yml@main
+  security:
+    uses: igrek8/github-workflows/.github/workflows/job-security.yml@main
+    secrets:
+      SPECTRAL_DSN: ${{ secrets.SPECTRAL_DSN }}

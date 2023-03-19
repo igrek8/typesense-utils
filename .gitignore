@@ -1,0 +1,10 @@
+.DS_Store
+*.snap
+
+dist/
+docs/
+node_modules/
+coverage/
+
+.env
+.env.*
