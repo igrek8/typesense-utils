@@ -1,0 +1,17 @@
+.prettierignore
+.eslintignore
+.gitignore
+.github/CODEOWNERS
+LICENSE
+
+**/.env
+**/.env.*
+**/*.snap
+
+dist/
+.npmrc
+.husky/
+docs/
+node_modules/
+coverage/
+media/

@@ -1,0 +1,30 @@
+name: flow-stage
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  define-labels:
+    uses: igrek8/github-workflows/.github/workflows/job-define-labels.yml@main
+  format:
+    uses: igrek8/github-workflows/.github/workflows/job-format.yml@main
+  lint:
+    uses: igrek8/github-workflows/.github/workflows/job-lint.yml@main
+  test:
+    uses: igrek8/github-workflows/.github/workflows/job-test.yml@main
+  build:
+    uses: igrek8/github-workflows/.github/workflows/job-build.yml@main
+  analyze:
+    uses: igrek8/github-workflows/.github/workflows/job-analyze.yml@main
+  release:
+    needs: [define-labels, format, lint, test, build, analyze]
+    uses: igrek8/github-workflows/.github/workflows/job-release.yml@main
+    with:
+      artifact-name: dist
+      artifact-path: dist
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  docs:
+    needs: [release]
+    uses: igrek8/github-workflows/.github/workflows/job-docs.yml@main

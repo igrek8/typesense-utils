@@ -1,0 +1,9 @@
+*.html
+*.md
+*.map
+LICENSE
+
+media/
+dist/
+coverage/
+node_modules/

@@ -1,0 +1,23 @@
+- name: feature ✨
+  description: New functionality
+  color: 1D76DB
+
+- name: fix 🔧
+  description: Something will be fixed
+  color: 006B75
+
+- name: refactor 🛠
+  description: Refactoring
+  color: BFD4F2
+
+- name: bug 🐛
+  description: Something isn't working
+  color: D93F0B
+
+- name: docs 📋
+  description: Added some documentations
+  color: FBCA04
+
+- name: chore 🧹
+  description: Improvement or clean up
+  color: C5DEF5

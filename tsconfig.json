@@ -1,0 +1,4 @@
+{
+  "extends": "@igrek8/tsconfig/common.json",
+  "include": ["src"]
+}
