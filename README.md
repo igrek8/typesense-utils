@@ -1,5 +1,6 @@
 # typesense-utils (tested typesense@^0.24.0)
 
+[![flow-stage](https://github.com/igrek8/typesense-utils/actions/workflows/flow-stage.yml/badge.svg)](https://github.com/igrek8/typesense-utils/actions/workflows/flow-stage.yml)
 [![codecov](https://codecov.io/gh/igrek8/nodejs-template/branch/main/graph/badge.svg)](https://codecov.io/gh/igrek8/nodejs-template)
 
 Utilities to build various queries in [Typesense](https://typesense.org/).
