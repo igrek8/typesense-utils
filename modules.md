@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[buildVectorQuery.ts:16](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildVectorQuery.ts#L16)
+[buildVectorQuery.ts:16](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildVectorQuery.ts#L16)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[buildVectorQuery.ts:18](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildVectorQuery.ts#L18)
+[buildVectorQuery.ts:18](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildVectorQuery.ts#L18)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[buildFacetQuery.ts:3](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFacetQuery.ts#L3)
+[buildFacetQuery.ts:3](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFacetQuery.ts#L3)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[Field.ts:3](https://github.com/igrek8/typesense-utils/blob/5653697/src/Field.ts#L3)
+[Field.ts:3](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/Field.ts#L3)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-[buildFilterBy.ts:4](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFilterBy.ts#L4)
+[buildFilterBy.ts:4](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFilterBy.ts#L4)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[buildFilterBy.ts:61](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFilterBy.ts#L61)
+[buildFilterBy.ts:61](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFilterBy.ts#L61)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[buildFilterBy.ts:19](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFilterBy.ts#L19)
+[buildFilterBy.ts:19](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFilterBy.ts#L19)
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 #### Defined in
 
-[buildFilterBy.ts:97](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFilterBy.ts#L97)
+[buildFilterBy.ts:97](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFilterBy.ts#L97)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[buildFilterBy.ts:46](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFilterBy.ts#L46)
+[buildFilterBy.ts:46](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFilterBy.ts#L46)
 
 ___
 
@@ -236,7 +236,7 @@ ___
 
 #### Defined in
 
-[buildFilterBy.ts:93](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFilterBy.ts#L93)
+[buildFilterBy.ts:93](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFilterBy.ts#L93)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-[buildFilterBy.ts:88](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFilterBy.ts#L88)
+[buildFilterBy.ts:88](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFilterBy.ts#L88)
 
 ___
 
@@ -269,7 +269,7 @@ ___
 
 #### Defined in
 
-[Geopoint.ts:1](https://github.com/igrek8/typesense-utils/blob/5653697/src/Geopoint.ts#L1)
+[Geopoint.ts:1](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/Geopoint.ts#L1)
 
 ___
 
@@ -285,7 +285,7 @@ ___
 
 #### Defined in
 
-[buildSortBy.ts:104](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildSortBy.ts#L104)
+[buildSortBy.ts:104](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildSortBy.ts#L104)
 
 ___
 
@@ -304,7 +304,7 @@ ___
 
 #### Defined in
 
-[buildSortBy.ts:48](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildSortBy.ts#L48)
+[buildSortBy.ts:48](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildSortBy.ts#L48)
 
 ___
 
@@ -314,7 +314,7 @@ ___
 
 #### Defined in
 
-[Vector.ts:1](https://github.com/igrek8/typesense-utils/blob/5653697/src/Vector.ts#L1)
+[Vector.ts:1](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/Vector.ts#L1)
 
 ___
 
@@ -331,7 +331,7 @@ ___
 
 #### Defined in
 
-[buildVectorQuery.ts:3](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildVectorQuery.ts#L3)
+[buildVectorQuery.ts:3](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildVectorQuery.ts#L3)
 
 ___
 
@@ -348,7 +348,7 @@ ___
 
 #### Defined in
 
-[buildVectorQuery.ts:11](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildVectorQuery.ts#L11)
+[buildVectorQuery.ts:11](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildVectorQuery.ts#L11)
 
 ## Functions
 
@@ -378,7 +378,7 @@ https://typesense.org/docs/0.24.0/api/search.html#faceting-parameters
 
 #### Defined in
 
-[buildFacetBy.ts:9](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFacetBy.ts#L9)
+[buildFacetBy.ts:9](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFacetBy.ts#L9)
 
 ___
 
@@ -408,7 +408,7 @@ https://typesense.org/docs/0.24.0/api/search.html#faceting-parameters
 
 #### Defined in
 
-[buildFacetQuery.ts:10](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFacetQuery.ts#L10)
+[buildFacetQuery.ts:10](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFacetQuery.ts#L10)
 
 ___
 
@@ -436,7 +436,7 @@ Builds a comma-separated list of fields from the document.
 
 #### Defined in
 
-[buildFieldsList.ts:6](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFieldsList.ts#L6)
+[buildFieldsList.ts:6](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFieldsList.ts#L6)
 
 ___
 
@@ -466,7 +466,7 @@ https://typesense.org/docs/0.23.0/api/search.html#query-parameters
 
 #### Defined in
 
-[buildFilterBy.ts:193](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildFilterBy.ts#L193)
+[buildFilterBy.ts:193](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildFilterBy.ts#L193)
 
 ___
 
@@ -498,7 +498,7 @@ https://typesense.org/docs/0.24.0/api/search.html#grouping-parameters
 
 #### Defined in
 
-[buildGroupBy.ts:11](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildGroupBy.ts#L11)
+[buildGroupBy.ts:11](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildGroupBy.ts#L11)
 
 ___
 
@@ -528,7 +528,7 @@ https://typesense.org/docs/0.24.0/api/search.html#query-parameters
 
 #### Defined in
 
-[buildQueryBy.ts:8](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildQueryBy.ts#L8)
+[buildQueryBy.ts:8](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildQueryBy.ts#L8)
 
 ___
 
@@ -558,7 +558,7 @@ https://typesense.org/docs/0.24.0/api/search.html#sort-results
 
 #### Defined in
 
-[buildSortBy.ts:165](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildSortBy.ts#L165)
+[buildSortBy.ts:165](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildSortBy.ts#L165)
 
 ___
 
@@ -588,4 +588,4 @@ https://typesense.org/docs/0.24.0/api/vector-search.html#vector-search
 
 #### Defined in
 
-[buildVectorQuery.ts:25](https://github.com/igrek8/typesense-utils/blob/5653697/src/buildVectorQuery.ts#L25)
+[buildVectorQuery.ts:25](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildVectorQuery.ts#L25)
