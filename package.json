@@ -55,7 +55,7 @@
     "tslib": "^2"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.5.1",
+    "@commitlint/cli": "17.6.0",
     "@commitlint/config-conventional": "17.4.4",
     "@igrek8/eslint-config": "1.0.6",
     "@igrek8/jest-preset": "1.0.11",
