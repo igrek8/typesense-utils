@@ -19,7 +19,7 @@ Divides the result set into 10 buckets from most relevant results to the least r
 
 #### Defined in
 
-[buildSortBy.ts:83](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildSortBy.ts#L83)
+[buildSortBy.ts:83](https://github.com/igrek8/typesense-utils/blob/57d3f6b/src/buildSortBy.ts#L83)
 
 ___
 
@@ -31,4 +31,4 @@ Sorts based on conditions
 
 #### Defined in
 
-[buildSortBy.ts:79](https://github.com/igrek8/typesense-utils/blob/9d31e34/src/buildSortBy.ts#L79)
+[buildSortBy.ts:79](https://github.com/igrek8/typesense-utils/blob/57d3f6b/src/buildSortBy.ts#L79)
