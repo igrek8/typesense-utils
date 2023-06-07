@@ -13,7 +13,7 @@ export type FilterByBoolean<T extends boolean> = {
   /**
    * Selects the documents where the value of a field equals any value in the specified array
    */
-  $in?: T[];
+  $in?: boolean[];
 };
 
 export type FilterByNumber<T extends number> = {
@@ -40,7 +40,7 @@ export type FilterByNumber<T extends number> = {
   /**
    * Selects the documents where the value of a field equals any value in the specified array
    */
-  $in?: T[];
+  $in?: number[];
 };
 
 export type FilterByString<T extends string = string> = {
@@ -55,7 +55,7 @@ export type FilterByString<T extends string = string> = {
   /**
    * Selects the documents where the value of a field equals any value in the specified array
    */
-  $in?: T[];
+  $in?: string[];
 };
 
 export type FilterByGeopoint = {

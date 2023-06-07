@@ -37,6 +37,7 @@ describe('buildFilterBy', () => {
     expect(buildFilterBy<{ years: number[] }>({ years: { $in: [2022, 2023] } })).toBe('years:[2022,2023]');
     expect(buildFilterBy<{ colors: string[] }>({ colors: { $in: ['Blue', 'Red'] } })).toBe('colors:[`Blue`,`Red`]');
     expect(buildFilterBy<{ checks: boolean[] }>({ checks: { $in: [false] } })).toBe('checks:[false]');
+    expect(buildFilterBy<{ state: 'on' | 'off' }>({ state: { $in: ['on', 'off'] } })).toBe('state:[`on`,`off`]');
   });
 
   it('$and', () => {
