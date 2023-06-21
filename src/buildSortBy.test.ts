@@ -88,6 +88,6 @@ describe('buildSortBy', () => {
           },
         ],
       })
-    ).toBe('_eval(title:`The Witcher`):asc,_eval(available:true):desc');
+    ).toBe('_eval(title:=`The Witcher`):asc,_eval(available:=true):desc');
   });
 });

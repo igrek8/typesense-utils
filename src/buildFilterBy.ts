@@ -127,7 +127,7 @@ function next(node: unknown, path: string[]): string {
             break;
           }
           case '$eq': {
-            terms.push(`${path.join('.')}:${stringify(value)}`);
+            terms.push(`${path.join('.')}:=${stringify(value)}`);
             break;
           }
           case '$ne': {

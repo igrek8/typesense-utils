@@ -20,6 +20,6 @@ describe('buildFacetQuery', () => {
           },
         },
       })
-    ).toBe('movies.title:`Jumanji`');
+    ).toBe('movies.title:=`Jumanji`');
   });
 });

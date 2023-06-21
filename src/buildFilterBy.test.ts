@@ -11,13 +11,13 @@ describe('buildFilterBy', () => {
   });
 
   it('$eq', () => {
-    expect(buildFilterBy<{ status: 'published' }>({ status: { $eq: 'published' } })).toBe('status:`published`');
-    expect(buildFilterBy<{ price: number }>({ price: { $eq: 100 } })).toBe('price:100');
-    expect(buildFilterBy<{ deleted: boolean }>({ deleted: { $eq: false } })).toBe('deleted:false');
+    expect(buildFilterBy<{ status: 'published' }>({ status: { $eq: 'published' } })).toBe('status:=`published`');
+    expect(buildFilterBy<{ price: number }>({ price: { $eq: 100 } })).toBe('price:=100');
+    expect(buildFilterBy<{ deleted: boolean }>({ deleted: { $eq: false } })).toBe('deleted:=false');
   });
 
   it('escapes backtick', () => {
-    expect(buildFilterBy<{ text: string }>({ text: { $eq: 'Sample `text`' } })).toBe('text:`Sample \\`text\\``');
+    expect(buildFilterBy<{ text: string }>({ text: { $eq: 'Sample `text`' } })).toBe('text:=`Sample \\`text\\``');
   });
 
   it('$ne', () => {
@@ -75,7 +75,7 @@ describe('buildFilterBy', () => {
           },
         ],
       })
-    ).toBe('((year:2020)||(year:2021))');
+    ).toBe('((year:=2020)||(year:=2021))');
   });
 
   it('uses $and by default', () => {
@@ -84,7 +84,7 @@ describe('buildFilterBy', () => {
         year: { $eq: 1995 },
         title: { $eq: 'Jumanji' },
       })
-    ).toBe('year:1995&&title:`Jumanji`');
+    ).toBe('year:=1995&&title:=`Jumanji`');
   });
 
   it('returns empty if no operator is used', () => {
@@ -172,6 +172,6 @@ describe('buildFilterBy', () => {
           },
         ],
       })
-    ).toBe('movies.available:true&&((movies.year:>=2020&&tags:[`horror`,`sci-fi`])||(movies.rating:>=4))');
+    ).toBe('movies.available:=true&&((movies.year:>=2020&&tags:[`horror`,`sci-fi`])||(movies.rating:>=4))');
   });
 });
