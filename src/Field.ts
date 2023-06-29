@@ -1,15 +1,13 @@
 import { Geopoint } from './Geopoint';
 
-export type Field<
-  Next,
-  Type = boolean | number | string | Geopoint,
-  Path extends string | undefined = undefined
-> = Next extends Type
+type _Field<Next, Path extends string | undefined = undefined> = Next extends boolean | number | string | Geopoint
   ? Path
   : Next extends (infer U)[]
-  ? Field<U, Type, Path>
+  ? _Field<U, Path>
   : Next extends object
   ? {
-      [K in keyof Next & string]: Field<Next[K], Type, Path extends string ? `${Path}.${K}` : K>;
+      [K in keyof Next & string]: _Field<Next[K], Path extends string ? `${Path}.${K}` : K>;
     }[keyof Next & string]
   : never;
+
+export type Field<Next> = _Field<Next>;

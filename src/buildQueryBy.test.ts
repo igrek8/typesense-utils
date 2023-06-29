@@ -12,6 +12,8 @@ interface Tour {
 
 describe('buildQueryBy', () => {
   it('composes an expression', () => {
-    expect(buildQueryBy<Museum>(['name', 'tours.language'])).toEqual('name,tours.language');
+    expect(buildQueryBy<Museum>(['name', 'tours.language', 'tours.starts_at'])).toEqual(
+      'name,tours.language,tours.starts_at'
+    );
   });
 });
