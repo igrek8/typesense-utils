@@ -25,7 +25,7 @@ Sorts based on conditions
 
 #### Defined in
 
-[buildSortBy.ts:71](https://github.com/igrek8/typesense-utils/blob/2d5a8df/src/buildSortBy.ts#L71)
+[buildSortBy.ts:71](https://github.com/igrek8/typesense-utils/blob/727ac0a/src/buildSortBy.ts#L71)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-[buildSortBy.ts:72](https://github.com/igrek8/typesense-utils/blob/2d5a8df/src/buildSortBy.ts#L72)
+[buildSortBy.ts:72](https://github.com/igrek8/typesense-utils/blob/727ac0a/src/buildSortBy.ts#L72)

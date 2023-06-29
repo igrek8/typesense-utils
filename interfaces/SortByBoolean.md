@@ -19,7 +19,7 @@ Specify sort for null, empty or missing values
 
 #### Defined in
 
-[buildSortBy.ts:23](https://github.com/igrek8/typesense-utils/blob/2d5a8df/src/buildSortBy.ts#L23)
+[buildSortBy.ts:23](https://github.com/igrek8/typesense-utils/blob/727ac0a/src/buildSortBy.ts#L23)
 
 ___
 
@@ -31,4 +31,4 @@ Sorts in the specified order
 
 #### Defined in
 
-[buildSortBy.ts:19](https://github.com/igrek8/typesense-utils/blob/2d5a8df/src/buildSortBy.ts#L19)
+[buildSortBy.ts:19](https://github.com/igrek8/typesense-utils/blob/727ac0a/src/buildSortBy.ts#L19)
