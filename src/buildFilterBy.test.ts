@@ -35,9 +35,9 @@ describe('buildFilterBy', () => {
 
   it('$in', () => {
     expect(buildFilterBy<{ years: number[] }>({ years: { $in: [2022, 2023] } })).toBe('years:[2022,2023]');
-    expect(buildFilterBy<{ colors: string[] }>({ colors: { $in: ['Blue', 'Red'] } })).toBe('colors:[`Blue`,`Red`]');
+    expect(buildFilterBy<{ colors: string[] }>({ colors: { $in: ['Blue', 'Red'] } })).toBe('colors:=[`Blue`,`Red`]');
     expect(buildFilterBy<{ checks: boolean[] }>({ checks: { $in: [false] } })).toBe('checks:[false]');
-    expect(buildFilterBy<{ state: 'on' | 'off' }>({ state: { $in: ['on', 'off'] } })).toBe('state:[`on`,`off`]');
+    expect(buildFilterBy<{ state: 'on' | 'off' }>({ state: { $in: ['on', 'off'] } })).toBe('state:=[`on`,`off`]');
   });
 
   it('$and', () => {
@@ -172,6 +172,6 @@ describe('buildFilterBy', () => {
           },
         ],
       })
-    ).toBe('movies.available:=true&&((movies.year:>=2020&&tags:[`horror`,`sci-fi`])||(movies.rating:>=4))');
+    ).toBe('movies.available:=true&&((movies.year:>=2020&&tags:=[`horror`,`sci-fi`])||(movies.rating:>=4))');
   });
 });
