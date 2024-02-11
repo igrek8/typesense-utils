@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[buildSortBy.ts:11](https://github.com/igrek8/typesense-utils/blob/727ac0a/src/buildSortBy.ts#L11)
+[buildSortBy.ts:11](https://github.com/igrek8/typesense-utils/blob/e9bba15/src/buildSortBy.ts#L11)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[buildSortBy.ts:12](https://github.com/igrek8/typesense-utils/blob/727ac0a/src/buildSortBy.ts#L12)
+[buildSortBy.ts:12](https://github.com/igrek8/typesense-utils/blob/e9bba15/src/buildSortBy.ts#L12)
