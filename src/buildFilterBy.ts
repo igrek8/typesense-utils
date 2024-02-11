@@ -144,8 +144,8 @@ function next(node: unknown, path: string[]): string {
           }
           case '$in': {
             assert(Array.isArray(value));
-            const sign = value.some((v) => typeof v === 'string') ? ':=' : ':';
-            terms.push(`${path.join('.')}${sign}[${value.map(stringify).join(',')}]`);
+            const operator = value.some((v) => typeof v === 'string') ? ':=' : ':';
+            terms.push(`${path.join('.')}${operator}[${value.map(stringify).join(',')}]`);
             break;
           }
           case '$polygon': {
