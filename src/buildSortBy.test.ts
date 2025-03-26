@@ -31,6 +31,20 @@ describe('buildSortBy', () => {
     ).toBe('_text_match(buckets:10):desc,weighted_score:desc');
   });
 
+  it('sorts by _text_match with bucket_size', () => {
+    expect(
+      buildSortBy<{ weighted_score: number }>({
+        _text_match: {
+          $order: Order.Desc,
+          $bucket_size: 3,
+        },
+        weighted_score: {
+          $order: Order.Desc,
+        },
+      })
+    ).toBe('_text_match(bucket_size:3):desc,weighted_score:desc');
+  });
+
   it('sorts by geopoint', () => {
     expect(
       buildSortBy<{ location: Geopoint }>({

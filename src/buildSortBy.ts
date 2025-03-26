@@ -81,6 +81,10 @@ export interface SortByTextMatch {
    * Divides the result set into 10 buckets from most relevant results to the least relevant
    */
   $buckets?: number;
+  /**
+   * The size of each bucket
+   */
+  $bucket_size?: number;
 }
 
 type Operator<T> = T extends [lat: number, lng: number]
@@ -139,6 +143,17 @@ function next<T>(node: unknown, path: string[]): string {
             if ($null === NullOrder.First) expr += `(missing_values:first)`;
             if ($null === NullOrder.Last) expr += `(missing_values:last)`;
             if ($buckets !== undefined) expr += `(buckets:${$buckets})`;
+            if ($order === Order.Asc) expr += ':asc';
+            if ($order === Order.Desc) expr += ':desc';
+            terms.push(expr);
+            break loop;
+          }
+          case '$bucket_size': {
+            const { $order, $null, $bucket_size } = node as SortByNumber & SortByTextMatch;
+            let expr = path.join('.');
+            if ($null === NullOrder.First) expr += `(missing_values:first)`;
+            if ($null === NullOrder.Last) expr += `(missing_values:last)`;
+            if ($bucket_size !== undefined) expr += `(bucket_size:${$bucket_size})`;
             if ($order === Order.Asc) expr += ':asc';
             if ($order === Order.Desc) expr += ':desc';
             terms.push(expr);
