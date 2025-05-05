@@ -1,5 +1,6 @@
 # typesense-utils (tested typesense@^0.24.0)
 
+[![github release](https://img.shields.io/github/v/release/igrek8/typesense-utils)](https://github.com/igrek8/typesense-utils/releases)
 [![flow-stage](https://github.com/igrek8/typesense-utils/actions/workflows/flow-stage.yml/badge.svg)](https://github.com/igrek8/typesense-utils/actions/workflows/flow-stage.yml)
 [![codecov](https://codecov.io/gh/igrek8/typesense-utils/branch/main/graph/badge.svg)](https://codecov.io/gh/igrek8/typesense-utils)
 
